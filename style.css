@@ -1,9 +1,11 @@
 .content {
     width: 500px;
     height: 400px;
-    background-color: blue;
-    font-size: 34px;
-    color: yellow;
+    background-color: pink;
+    font-size: 50px;
+    color: rgb(6, 6, 76);
+    margin: 0 auto;
+   
 }
 
 @media (max-width:1024px){
@@ -54,6 +56,8 @@
 
 .item1 {
    grid-column: span 4;
+   object-fit: cover;
+   /* width: 100%; */
 }
 
 .box {
